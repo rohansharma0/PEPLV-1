@@ -4,13 +4,13 @@ public class QuickSelect {
 
     public static void main(String[] args) {
 
-        int arr[] = {64, 34, 25, 12, 22, 11, 90};
+        int arr[] = {3, 2, 3, 1, 2, 4, 5,5,6};
 
         //place smallest element
         int k = 4;
 
         // index = 4 -1 ;
-        int i = 4 -1;
+        int i = arr.length - 4;
         System.out.println(quickSelect(arr , 0 , arr.length -1 , i));
 
 
